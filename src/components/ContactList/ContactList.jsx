@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import css from "./ContactList.module.css"
 
 const ContactList = ({ contacts, deleteContact }) => {
-    const contactsCaunt = contacts.length;
     
     return (
         <ul className={css.contacts__list}>
