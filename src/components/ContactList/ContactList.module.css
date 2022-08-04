@@ -1,0 +1,21 @@
+.contacts__item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.item__name {
+    margin-right: 5px;
+}
+
+.item__number {
+    margin-right: 10px;
+}
+
+.delete_btn {
+    font-size: 8px;
+    padding: 1px;
+}
