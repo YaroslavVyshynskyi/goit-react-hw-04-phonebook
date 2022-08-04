@@ -4,19 +4,9 @@ import css from "./ContactForm.module.css"
 
 
 const ContactForm = ({onSubmit}) => {
-// class ContactForm extends Component {
-//     state = {
-//         name: '',
-//         number: ''
-//     }
     const[name, setName] = useState("");
     const[number, setNumber] = useState("");
     
-    // handleChange = e => {
-    //     const { name, value } = e.currentTarget;
-    //     this.setState({ [name]: value });
-    // }
-
     const handleNameChange = e => {
         setName(e.currentTarget.value); 
     };
